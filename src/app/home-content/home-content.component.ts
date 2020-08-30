@@ -14,6 +14,10 @@ export class HomeContentComponent implements OnInit {
   location= 'De Wilgers Manskoshuis, NWU Potchefstroom Campus';
   number="+27 79 923 1400";
   emailLine="henro47@gmail.com";
+
+  titleRight= 'ABOUT' ;
+  subtitleRight ='A little about me.'
+
   marker= faMarker;
   addressBook = faAddressBook;
   email = faMailBulk;
