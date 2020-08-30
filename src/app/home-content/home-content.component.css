@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;700&display=swap');
+
+html{
+    background:#C0C0C0;
+    display: grid;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(1,2fr);
+    float: left;
+}
+
+.left{
+    width: 400px;
+    margin: 10px;
+    float: left;
+}
+
+.right{
+    width: 600px;
+    margin:10px;
+}
+
+.right .info{
+    max-width: 800px;
+    max-width: 800px;
+}
+
+.right .regular{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.below{
+    width: 600px;
+    margin:10px;
+}
+
+.below .info{
+    max-width: 800px;
+    max-width: 800px;
+}
+
+.bold{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.medium{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.regular{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.info{
+    max-width: 400px;
+}
+  
+.header_image {
+    background-size: cover;
+}
+
+ul li .icon fa-icon{
+    width: 90px;
+    height: 90px;
+    background: #ffffff;
+    color: #0bb5f4 ;
+    border-radius: 75%;
+    margin-right: 15px;
+    font-size: 30px;
+    position: relative;
+}
+
+ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.below .info ul li .data{
+    margin-bottom: 15px;
+}
