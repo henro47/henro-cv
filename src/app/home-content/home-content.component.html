@@ -1,0 +1,33 @@
+<body>
+    <div class="left">
+        <mat-card class="info">
+            <mat-card-header>
+                <div mat-card-avatar class="header_image"></div>
+                <mat-card-title class="bold">{{title}}</mat-card-title>
+                <mat-card-subtitle class="medium">{{subtitle}}</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src="assets/profile.png" alt = "My Profile Picture">
+            <mat-card-content>
+                <ul>
+                    <li>
+                        <div class="icon"><fa-icon [icon]="marker"></fa-icon></div>
+                        <div class="data">{{location}}</div>
+                    </li>
+        
+                    <li>
+                        <div class="icon"><fa-icon [icon]="addressBook"></fa-icon></div>
+                        <div class="data">{{number}}</div>
+                    </li>
+        
+                    <li>
+                        <div class="icon"><fa-icon [icon]="email"></fa-icon></div>
+                        <div class="data">{{emailLine}}</div>
+                    </li>
+                </ul>
+            </mat-card-content>
+        </mat-card>
+    </div>
+    <div class="right">
+        <div class="bold">ABOUT</div>
+    </div>
+</body>
