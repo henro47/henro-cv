@@ -6,6 +6,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatCardModule} from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
 import { HomeContentComponent } from './home-content/home-content.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
@@ -21,7 +22,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     BrowserAnimationsModule,
     MatTabsModule,
     MatCardModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
