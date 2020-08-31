@@ -1,3 +1,7 @@
 ::ng-deep.mat-tab-label, ::ng-deep.mat-tab-label-active{
     display: flex;
 }
+
+.mat-tab-group {
+    margin-bottom: 48px;
+  }
