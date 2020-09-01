@@ -9,12 +9,14 @@ import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import { HomeContentComponent } from './home-content/home-content.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
-    HomeContentComponent
+    HomeContentComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
