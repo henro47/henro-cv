@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;700&display=swap');
+
+html{
+    background:#C0C0C0;
+    display: grid;
+}
+
 .bold{
     font-weight: 700;
     font-size: 20px;
@@ -141,4 +147,10 @@ ul li:last-child{
     to {
         width: 83%;
     }
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
