@@ -10,13 +10,15 @@ import {MatButtonModule} from '@angular/material/button';
 import { HomeContentComponent } from './home-content/home-content.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SkillsComponent } from './skills/skills.component';
+import { EducationComponent } from './education/education.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
     HomeContentComponent,
-    SkillsComponent
+    SkillsComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,
