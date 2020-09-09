@@ -2,38 +2,74 @@
     <body>
         <div class="content">
             <div class="wrapper">
-                <div class="university_info">
-                    <mat-card class="info">
-                        <mat-card-header>
-                            <mat-card-title class="bold">{{uniTitle}}</mat-card-title>
-                            <mat-card-subtitle class="medium">{{uniSubtitle}}</mat-card-subtitle>
-                        </mat-card-header>
-                        <mat-card-content>
-                            <p class="regular">
-                                I am an independent, hardworking and creative individual who is also reliable and has developed a responsible and ethical approach to the tasks that I undertake or any given situation I am placed in. 
-                                I am excellent with working and communicating in a team. 
-                                I believe in integrity and strong moral values and that an individual should strive to be successful not only in their career but also in their personal life. 
-                                I also believe that everything you tackle you can be successful in if you do it with a positive manner and with hard work.
-                            </p>
-                        </mat-card-content>
-                    </mat-card>
-                </div>
-                <div class="secondary_info">
-                    <mat-card class="info">
-                        <mat-card-header>
-                            <mat-card-title class="bold">{{schoolTitle}}</mat-card-title>
-                            <mat-card-subtitle class="medium">{{schoolSubtitle}}</mat-card-subtitle>
-                        </mat-card-header>
-                        <mat-card-content>
-                            <p class="regular">
-                                I am an independent, hardworking and creative individual who is also reliable and has developed a responsible and ethical approach to the tasks that I undertake or any given situation I am placed in. 
-                                I am excellent with working and communicating in a team. 
-                                I believe in integrity and strong moral values and that an individual should strive to be successful not only in their career but also in their personal life. 
-                                I also believe that everything you tackle you can be successful in if you do it with a positive manner and with hard work.
-                            </p>
-                        </mat-card-content>
-                    </mat-card>
-                </div>
+                <mat-accordion>
+                    <mat-expansion-panel class="expansion_panel">
+                        <mat-expansion-panel-header>
+                            <mat-panel-title class="bold">{{uniTitle}}</mat-panel-title>
+                        </mat-expansion-panel-header>
+                        <div class="university_info">
+                            <mat-card class="info">
+                                
+                                <mat-card-header>
+                                    <mat-card-title class="bold">{{uniSubtitle}}</mat-card-title>
+                                    <mat-card-subtitle class="medium">2018-Present</mat-card-subtitle>
+                                </mat-card-header>
+                                <mat-card-content>
+                                    <table mat-table [dataSource]="uniDataSource" class="mat-elevation-z8">
+                                        <!-- Name Column -->
+                                        <ng-container matColumnDef="name">
+                                            <th mat-header-cell *matHeaderCellDef> info </th>
+                                            <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+                                        </ng-container>
+
+                                        <!-- Weight Column -->
+                                        <ng-container matColumnDef="info">
+                                            <th mat-header-cell *matHeaderCellDef> additional info </th>
+                                            <td mat-cell *matCellDef="let element"> {{element.info}} </td>
+                                        </ng-container>
+
+                                        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                                        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+                                    </table>
+                                </mat-card-content>
+                            </mat-card>
+                        </div>
+                    </mat-expansion-panel>
+                </mat-accordion>
+
+                <mat-accordion>
+                    <mat-expansion-panel class="expansion_panel">
+                        <mat-expansion-panel-header>
+                            <mat-panel-title class="bold">{{schoolTitle}}</mat-panel-title>
+                        </mat-expansion-panel-header>
+                        <div class="secondary_info">
+                            <mat-card class="info">
+                                <mat-card-header>
+                                    <mat-card-title class="bold">{{schoolSubtitle}}</mat-card-title>
+                                    <mat-card-subtitle class="medium">2013-2017</mat-card-subtitle>
+                                </mat-card-header>
+                                <mat-card-content>
+                                    <table mat-table [dataSource]="schoolDataSource" class="mat-elevation-z8">
+                                        <!-- Name Column -->
+                                        <ng-container matColumnDef="name">
+                                            <th mat-header-cell *matHeaderCellDef> info </th>
+                                            <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+                                        </ng-container>
+
+                                        <!-- Weight Column -->
+                                        <ng-container matColumnDef="info">
+                                            <th mat-header-cell *matHeaderCellDef> additional info </th>
+                                            <td mat-cell *matCellDef="let element"> {{element.info}} </td>
+                                        </ng-container>
+
+                                        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                                        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+                                    </table>
+                                </mat-card-content>
+                            </mat-card>
+                        </div>
+                    </mat-expansion-panel>
+                </mat-accordion>                
             </div>
         </div>
     </body>

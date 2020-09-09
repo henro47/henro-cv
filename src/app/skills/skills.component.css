@@ -22,7 +22,7 @@ html{
 }
 
 .info{
-    max-width: 800px;
+    max-width: 100%;
     margin: 10px;
 }
 
@@ -153,4 +153,5 @@ ul li:last-child{
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 100%;
 }
