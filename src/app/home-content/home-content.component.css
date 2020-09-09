@@ -12,19 +12,18 @@ html{
 }
 
 .left{
-    width: 400px;
+    width: 50%;
     margin: 10px;
     float: left;
 }
 
 .right{
-    width: 600px;
+    width: 25%;
     margin:10px;
 }
 
 .right .info{
-    max-width: 800px;
-    max-width: 800px;
+    max-width: 100%;
 }
 
 .right .regular{
@@ -33,7 +32,7 @@ html{
 }
 
 .below{
-    width: 600px;
+    width: 25%;
     margin:10px;
 }
 
