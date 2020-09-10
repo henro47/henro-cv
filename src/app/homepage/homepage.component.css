@@ -1,9 +1,11 @@
 ::ng-deep.mat-tab-label, ::ng-deep.mat-tab-label-active{
     display: flex;
+    background-color: aliceblue;
     text-transform: uppercase;
     background-color: whitesmoke;
 }
 
 .tab_group{
     max-width: auto;
+    background-color:  #0bb5f4 ;
 }
