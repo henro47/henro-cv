@@ -26,8 +26,6 @@ html{
     margin: 10px;
 }
 
-<<<<<<< HEAD
-=======
 ul li{
     display: flex;
     align-items: center;
@@ -150,7 +148,6 @@ ul li:last-child{
         width: 83%;
     }
 }
->>>>>>> parent of 2f4f206... Fixed html and body issues
 
 .skills{
     display: flex;
