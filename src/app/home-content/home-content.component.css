@@ -83,5 +83,15 @@ ul li{
     display: none;
 }
 
+.outside-container{
+    display: flex;
+    justify-content: center;
+}
+
+.below-container{
+    display: flex;
+    justify-content: center;
+}
+
 
 

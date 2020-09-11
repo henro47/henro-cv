@@ -1,45 +1,48 @@
 <div class="container">
     <div id="home"  class="flex-center flex-column">
-        <mat-card class="info">
-            <mat-card-header>
-                <div mat-card-avatar class="header_image"></div>
-                <mat-card-title class="bold">{{title}}</mat-card-title>
-                <mat-card-subtitle class="medium">{{subtitle}} <br> {{subtitleContinue}}</mat-card-subtitle>
-            </mat-card-header>
-            <img class="image" mat-card-image src="assets/profile.png" alt = "My Profile Picture">
-            <mat-card-content>
-                <ul>
-                    <li>
-                        <div class="icon"><fa-icon [icon]="marker"></fa-icon></div>
-                        <div class="data">{{location}}</div>
-                    </li>
-        
-                    <li>
-                        <div class="icon"><fa-icon [icon]="addressBook"></fa-icon></div>
-                        <div class="data">{{number}}</div>
-                    </li>
-        
-                    <li>
-                        <div class="icon"><fa-icon [icon]="email"></fa-icon></div>
-                        <div class="data">{{emailLine}}</div>
-                    </li>
-                </ul>
-            </mat-card-content>
-        </mat-card>
-        <mat-card class="info">
-            <mat-card-header>
-                <mat-card-title class="bold">{{titleRight}}</mat-card-title>
-                <mat-card-subtitle class="medium">{{subtitleRight}}</mat-card-subtitle>
-            </mat-card-header>
-            <mat-card-content>
-                <p class="regular">
-                    I am an independent, hardworking and creative individual who is also reliable and has developed a responsible and ethical approach to the tasks that I undertake or any given situation I am placed in. 
-                    I am excellent with working and communicating in a team. 
-                    I believe in integrity and strong moral values and that an individual should strive to be successful not only in their career but also in their personal life. 
-                    I also believe that everything you tackle you can be successful in if you do it with a positive manner and with hard work.
-                </p>
-            </mat-card-content>
-        </mat-card>
+       <div class="outside-container">
+            <mat-card class="info">
+                <mat-card-header>
+                    <div mat-card-avatar class="header_image"></div>
+                    <mat-card-title class="bold">{{title}}</mat-card-title>
+                    <mat-card-subtitle class="medium">{{subtitle}} <br> {{subtitleContinue}}</mat-card-subtitle>
+                </mat-card-header>
+                <img class="image" mat-card-image src="assets/profile.png" alt = "My Profile Picture">
+                <mat-card-content>
+                    <ul>
+                        <li>
+                            <div class="icon"><fa-icon [icon]="marker"></fa-icon></div>
+                            <div class="data">{{location}}</div>
+                        </li>
+            
+                        <li>
+                            <div class="icon"><fa-icon [icon]="addressBook"></fa-icon></div>
+                            <div class="data">{{number}}</div>
+                        </li>
+            
+                        <li>
+                            <div class="icon"><fa-icon [icon]="email"></fa-icon></div>
+                            <div class="data">{{emailLine}}</div>
+                        </li>
+                    </ul>
+                </mat-card-content>
+            </mat-card>
+            <mat-card class="info">
+                <mat-card-header>
+                    <mat-card-title class="bold">{{titleRight}}</mat-card-title>
+                    <mat-card-subtitle class="medium">{{subtitleRight}}</mat-card-subtitle>
+                </mat-card-header>
+                <mat-card-content>
+                    <p class="regular">
+                        I am an independent, hardworking and creative individual who is also reliable and has developed a responsible and ethical approach to the tasks that I undertake or any given situation I am placed in. 
+                        I am excellent with working and communicating in a team. 
+                        I believe in integrity and strong moral values and that an individual should strive to be successful not only in their career but also in their personal life. 
+                        I also believe that everything you tackle you can be successful in if you do it with a positive manner and with hard work.
+                    </p>
+                </mat-card-content>
+            </mat-card>
+       </div>
+       <div class="below-container">
         <mat-card class="info">
             <mat-card-header>
                 <mat-card-title class="bold">{{titleSocial}}</mat-card-title>
@@ -64,5 +67,6 @@
                </ul>
             </mat-card-content>
         </mat-card>
+       </div>
     </div>
 </div>
