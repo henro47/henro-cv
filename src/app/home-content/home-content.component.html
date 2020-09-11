@@ -1,32 +1,32 @@
 <div class="container">
-    <div id="home"  class="flex-center flex-column">
-       <div class="outside-container">
-            <mat-card class="info">
-                <mat-card-header>
-                    <div mat-card-avatar class="header_image"></div>
-                    <mat-card-title class="bold">{{title}}</mat-card-title>
-                    <mat-card-subtitle class="medium">{{subtitle}} <br> {{subtitleContinue}}</mat-card-subtitle>
-                </mat-card-header>
-                <img class="image" mat-card-image src="assets/profile.png" alt = "My Profile Picture">
-                <mat-card-content>
-                    <ul>
-                        <li>
-                            <div class="icon"><fa-icon [icon]="marker"></fa-icon></div>
-                            <div class="data">{{location}}</div>
-                        </li>
-            
-                        <li>
-                            <div class="icon"><fa-icon [icon]="addressBook"></fa-icon></div>
-                            <div class="data">{{number}}</div>
-                        </li>
-            
-                        <li>
-                            <div class="icon"><fa-icon [icon]="email"></fa-icon></div>
-                            <div class="data">{{emailLine}}</div>
-                        </li>
-                    </ul>
-                </mat-card-content>
-            </mat-card>
+    <div id="home"  class="flex-center flex-row">
+        <mat-card class="info">
+            <mat-card-header>
+                <div mat-card-avatar class="header_image"></div>
+                <mat-card-title class="bold">{{title}}</mat-card-title>
+                <mat-card-subtitle class="medium">{{subtitle}} <br> {{subtitleContinue}}</mat-card-subtitle>
+            </mat-card-header>
+            <img class="image" mat-card-image src="assets/profile.png" alt = "My Profile Picture">
+            <mat-card-content>
+                <ul>
+                    <li>
+                        <div class="icon"><fa-icon [icon]="marker"></fa-icon></div>
+                        <div class="data">{{location}}</div>
+                    </li>
+        
+                    <li>
+                        <div class="icon"><fa-icon [icon]="addressBook"></fa-icon></div>
+                        <div class="data">{{number}}</div>
+                    </li>
+        
+                    <li>
+                        <div class="icon"><fa-icon [icon]="email"></fa-icon></div>
+                        <div class="data">{{emailLine}}</div>
+                    </li>
+                </ul>
+            </mat-card-content>
+        </mat-card>   
+        <div class="content-right">
             <mat-card class="info">
                 <mat-card-header>
                     <mat-card-title class="bold">{{titleRight}}</mat-card-title>
@@ -41,32 +41,30 @@
                     </p>
                 </mat-card-content>
             </mat-card>
-       </div>
-       <div class="below-container">
-        <mat-card class="info">
-            <mat-card-header>
-                <mat-card-title class="bold">{{titleSocial}}</mat-card-title>
-                <mat-card-subtitle class="medium">{{subtitleSocial}}</mat-card-subtitle>
-            </mat-card-header>
-            <mat-card-content>
-               <ul>
-                   <li>
+            <mat-card class="info">
+                <mat-card-header>
+                    <mat-card-title class="bold">{{titleSocial}}</mat-card-title>
+                    <mat-card-subtitle class="medium">{{subtitleSocial}}</mat-card-subtitle>
+                </mat-card-header>
+                <mat-card-content>
+                <ul>
+                    <li>
                         <div class="icon"><fa-icon [icon]="bookmark"></fa-icon></div>
                         <div class="data">
                             <p class="medium">{{linkedIn}}</p>
                             <a mat-raised-button href="https://www.linkedin.com/in/hendrikPotgieter4701" target="blank">HFR@LinkedIn</a>
                         </div>
-                   </li>
-                   <li>
-                    <div class="icon"><fa-icon [icon]="bookmark"></fa-icon></div>
-                    <div class="data">
-                        <p class="medium">{{github}}</p>
-                        <a mat-raised-button href="https://github.com/henro47?tab=repositories" target="blank">HFR@Github</a>
-                    </div>
-                   </li>
-               </ul>
-            </mat-card-content>
-        </mat-card>
+                    </li>
+                    <li>
+                        <div class="icon"><fa-icon [icon]="bookmark"></fa-icon></div>
+                        <div class="data">
+                            <p class="medium">{{github}}</p>
+                            <a mat-raised-button href="https://github.com/henro47?tab=repositories" target="blank">HFR@Github</a>
+                        </div>
+                    </li>
+                </ul>
+                </mat-card-content>
+            </mat-card>
        </div>
     </div>
 </div>
