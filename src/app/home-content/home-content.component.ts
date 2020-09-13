@@ -4,7 +4,7 @@ import {faMarker, faAddressBook, faMailBulk,faBookmark} from '@fortawesome/free-
 @Component({
   selector: 'app-home-content',
   templateUrl: './home-content.component.html',
-  styleUrls: ['./home-content.component.css']
+  styleUrls: ['./home-content.component.css','../app.component.css']
 })
 export class HomeContentComponent implements OnInit {
 
@@ -19,7 +19,10 @@ export class HomeContentComponent implements OnInit {
   github='Github'
 
   titleRight= 'ABOUT' ;
-  subtitleRight ='A little about me.'
+  subtitleRight ='A little about me.';
+
+  titleCarreer ="CARREER";
+  subtitleCarrer="Goal Objective";
 
   titleSocial ="SOCIAL" ;
   subtitleSocial="My Social Accounts";

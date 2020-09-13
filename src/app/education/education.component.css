@@ -1,0 +1,27 @@
+.expansion_panel{
+    padding-block: 1.8rem;
+    margin: 1.8rem;
+}
+
+.university_info
+{
+    margin: 0.8rem;
+    max-width: 100%;
+}
+
+.info{
+    background-color: gray;
+}
+.secondary_info
+{
+    margin: 0.8rem;
+    max-width: 100%;
+}
+
+.header_image {
+    background-size: cover;
+}
+
+table {
+    width: 100%;
+  }
