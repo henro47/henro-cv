@@ -40,9 +40,9 @@ ul li{
 }
 
 @media screen and (max-width: 30.0625rem){
-    .container > *{
-        width: 100%;
-    }
+    .container > #home{
+        width: 100%
+    }  
 }
 
 
