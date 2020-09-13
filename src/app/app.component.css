@@ -59,4 +59,26 @@ html,body{
     align-items: flex-start;
 }
 
+@media screen and (max-width: 30.0625rem){
+
+    .container{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;/*Allign things vertically*/
+        align-items: flex-start;/*Align things horisontally*/
+        max-width: 90rem;
+        margin:0 auto;
+    }
+    
+    .flex-row{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .flex-center{
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
 

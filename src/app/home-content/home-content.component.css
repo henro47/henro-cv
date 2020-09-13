@@ -39,6 +39,12 @@ ul li{
     width: 80%;
 }
 
+@media screen and (max-width: 30.0625rem){
+    .container > *{
+        width: 100%;
+    }
+}
+
 
 
 
