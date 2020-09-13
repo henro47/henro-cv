@@ -23,7 +23,7 @@ html,body{
 
 .bold{
     font-weight: 700;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     color: #333;
 }
@@ -35,7 +35,7 @@ html,body{
 
 .regular{
     font-weight: 400;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .container{

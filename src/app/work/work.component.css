@@ -1,0 +1,16 @@
+.expansion_panels{
+    margin: 0.8rem;
+}
+
+.info{
+    background-color: gray;
+    margin: 0.8rem;
+}
+
+.card_content
+{
+    text-justify: inter-word;
+    justify-content: center;
+    padding: 1.5rem;
+    background-color: whitesmoke;
+}
