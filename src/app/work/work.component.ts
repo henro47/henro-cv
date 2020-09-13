@@ -15,6 +15,11 @@ export class WorkComponent implements OnInit {
   workTwoSub ="@Movation (Pty) Ltd.";
   workThreeTitle ="Developer";
   workThreeSub="@Linx-AS LLC.";
+  ReferencesTitle="References";
+  refCardTitle="Employer";
+  refCardOneSub ="Mr. Dirk Snyman"; 
+  refCardTwoSub ="Mr Kenneth Jackson"; 
+  refCardThreeSub ="Mr. Werner Simpson"; 
 
   ngOnInit(): void {
   }

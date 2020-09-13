@@ -8,6 +8,12 @@ ul li:last-child{
     margin-bottom: 0;
 }
 
+.skills{
+    margin: 1.8rem;
+    padding-block: 1.8rem;
+    max-width: 100%;
+}
+
 .skills ul li{
     color: #FF5733;
     position: relative;

@@ -19,7 +19,10 @@ export class HomeContentComponent implements OnInit {
   github='Github'
 
   titleRight= 'ABOUT' ;
-  subtitleRight ='A little about me.'
+  subtitleRight ='A little about me.';
+
+  titleCarreer ="CARREER";
+  subtitleCarrer="Goal Objective";
 
   titleSocial ="SOCIAL" ;
   subtitleSocial="My Social Accounts";
