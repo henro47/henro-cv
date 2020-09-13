@@ -4,7 +4,7 @@ import {faMarker, faAddressBook, faMailBulk,faBookmark} from '@fortawesome/free-
 @Component({
   selector: 'app-home-content',
   templateUrl: './home-content.component.html',
-  styleUrls: ['./home-content.component.css']
+  styleUrls: ['./home-content.component.css','../app.component.css']
 })
 export class HomeContentComponent implements OnInit {
 

@@ -24,10 +24,17 @@ const SCH_DATA: Data[] = [
   {position:9,name:'Physical Sciences', info:'73%'}
 ];
 
+const AA_DATA: Data[] = [
+  {position:1,name:'2018:',info:'North West University Academic Merit Bursary'},
+  {position:1,name:'2019(1):',info:'Golden Key International Honour Society Member'},
+  {position:1,name:'2019(2):',info:'Academic Top 10 De Wilgers Manskoshuis (1st)'},
+  {position:1,name:'2019(3):',info:'North West University Academic Merit Bursary'}
+];
+
 @Component({
   selector: 'app-education',
   templateUrl: './education.component.html',
-  styleUrls: ['./education.component.css']
+  styleUrls: ['./education.component.css','../app.component.css']
 })
 export class EducationComponent implements OnInit {
 
@@ -36,10 +43,13 @@ export class EducationComponent implements OnInit {
   uniSubtitle ="North West University Potchefstroom Campus";
   schoolTitle ="Secondary Education";
   schoolSubtitle ="Sentraal High School";
+  achievementsTitle ="Academic Achievements";
+  achievementSubtitle="My Academic Achievements";
 
   displayedColumns: string[] = ['name', 'info'] ;
   uniDataSource = UNI_DATA;
   schoolDataSource = SCH_DATA;
+  adtionalAcademics = AA_DATA;
 
   ngOnInit(): void {
   }

@@ -1,22 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;700&display=swap');
-html{
-    display: grid;
-}
-
-.wrapper{
-    display: grid;
-    grid-template-columns: repeat(1,2fr);
-    float: left;
-}
-
 .expansion_panel{
-    padding-block: 20px;
-    margin: 20px;
+    padding-block: 1.8rem;
+    margin: 1.8rem;
 }
 
 .university_info
 {
-    margin: 10px;
+    margin: 0.8rem;
     max-width: 100%;
 }
 
@@ -25,34 +14,12 @@ html{
 }
 .secondary_info
 {
-    margin: 10px;
+    margin: 0.8rem;
     max-width: 100%;
-}
-
-.bold{
-    font-weight: 700;
-    font-size: 20px;
-    text-transform: uppercase;
-}
-
-.medium{
-    font-weight: 500;
-    font-size: 16px;
-}
-
-.regular{
-    font-weight: 400;
-    font-size: 20px;
 }
 
 .header_image {
     background-size: cover;
-}
-
-.content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 table {
