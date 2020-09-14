@@ -44,6 +44,10 @@ ul li{
     .container > #home{
         width: 100%
     }  
+
+    .info{
+        margin: 0.8rem;
+    }
 }
 
 
