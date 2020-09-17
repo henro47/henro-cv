@@ -9,8 +9,10 @@ export class HomepageComponent implements OnInit {
 
   constructor() { }
   public innerWidth: any;
+
   ngOnInit(): void {
     this.innerWidth = window.innerWidth;
   }
+
 
 }

@@ -18,6 +18,24 @@ html,body{
     margin-bottom: 1rem;
 }
 
+.icon fa-icon{
+    width: 90px;
+    height: 90px;
+    background: #ffffff;
+    color: #0bb5f4 ;
+    border-radius: 75%;
+    margin-right: 0.8rem;
+    font-size: 2rem;
+    position: relative;
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem rgba(86, 158, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: 150ms;
+}
+
 .info{
     margin: 1.2rem;
 }

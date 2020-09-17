@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {faMarker, faAddressBook, faMailBulk,faBookmark, faDownload, faCode} from '@fortawesome/free-solid-svg-icons';
+import {faAddressBook,faBookmark, faDownload, faCode, faHome, faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-home-content',
@@ -27,9 +27,9 @@ export class HomeContentComponent implements OnInit {
   titleSocial ="SOCIAL" ;
   subtitleSocial="My Social Accounts";
 
-  marker= faMarker;
+  marker= faHome;
   addressBook = faAddressBook;
-  email = faMailBulk;
+  email = faEnvelope;
   bookmark = faBookmark;
   downloadIco = faDownload;
   avatar = faCode;

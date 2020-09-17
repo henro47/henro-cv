@@ -1,7 +1,7 @@
 <div class="container">
     <div id="education" class="flex-center">
         <mat-accordion>
-            <mat-expansion-panel class="expansion_panel">
+            <mat-expansion-panel class="expansion_panel btn">
                 <mat-expansion-panel-header>
                     <mat-panel-title class="bold">{{uniTitle}}</mat-panel-title>
                 </mat-expansion-panel-header>
@@ -9,7 +9,7 @@
                     <mat-card class="info">
                         
                         <mat-card-header>
-                            <mat-card-title class="bold">{{uniSubtitle}}</mat-card-title>
+                            <mat-card-title class="bold icon"><fa-icon [icon]="uniIco"></fa-icon>{{uniSubtitle}}</mat-card-title>
                             <mat-card-subtitle class="medium">2018-Present</mat-card-subtitle>
                         </mat-card-header>
                         <mat-card-content>
@@ -36,14 +36,14 @@
         </mat-accordion>
 
         <mat-accordion>
-            <mat-expansion-panel class="expansion_panel">
+            <mat-expansion-panel class="expansion_panel btn">
                 <mat-expansion-panel-header>
                     <mat-panel-title class="bold">{{schoolTitle}}</mat-panel-title>
                 </mat-expansion-panel-header>
                 <div class="secondary_info">
                     <mat-card class="info">
                         <mat-card-header>
-                            <mat-card-title class="bold">{{schoolSubtitle}}</mat-card-title>
+                            <mat-card-title class="bold icon"><fa-icon [icon]="schoolIco"></fa-icon>{{schoolSubtitle}}</mat-card-title>
                             <mat-card-subtitle class="medium">2013-2017</mat-card-subtitle>
                         </mat-card-header>
                         <mat-card-content>
@@ -70,14 +70,14 @@
         </mat-accordion>             
 
         <mat-accordion>
-            <mat-expansion-panel class="expansion_panel">
+            <mat-expansion-panel class="expansion_panel btn">
                 <mat-expansion-panel-header>
                     <mat-panel-title class="bold">{{achievementsTitle}}</mat-panel-title>
                 </mat-expansion-panel-header>
                 <div class="secondary_info">
                     <mat-card class="info">
                         <mat-card-header>
-                            <mat-card-title class="bold">{{achievementSubtitle}}</mat-card-title>
+                            <mat-card-title class="bold icon"><fa-icon [icon]="achieveIco"></fa-icon>{{achievementSubtitle}}</mat-card-title>
                             <mat-card-subtitle class="medium">2013-2017</mat-card-subtitle>
                         </mat-card-header>
                         <mat-card-content>
