@@ -2,7 +2,7 @@
     <div id="home"  class="flex-center flex-row">
         <mat-card class="info">
             <mat-card-header>
-                <div mat-card-avatar class="header_image"></div>
+                <div mat-card-avatar class="header_image"><fa-icon [icon]="avatar"></fa-icon></div>
                 <mat-card-title class="bold">{{title}}</mat-card-title>
                 <mat-card-subtitle class="medium">{{subtitle}} <br> {{subtitleContinue}}</mat-card-subtitle>
             </mat-card-header>
@@ -22,6 +22,10 @@
                     <li>
                         <div class="icon"><fa-icon [icon]="email"></fa-icon></div>
                         <div class="data regular">{{emailLine}}</div>
+                    </li>
+                    <li>
+                        <div class="icon"><fa-icon [icon]="downloadIco"></fa-icon></div>
+                        <a mat-raised-button href="../../assets/CV.pdf" target="_blank">Download CV</a>
                     </li>
                 </ul>
             </mat-card-content>
