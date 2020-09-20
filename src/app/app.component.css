@@ -57,6 +57,10 @@ html,body{
     font-size: 0.9rem;
 }
 
+.tab_group .icon fa-icon{
+    margin-top: 0.8rem;
+}
+
 .container{
     width: 100vw;
     height: 100vh;
@@ -89,9 +93,21 @@ html,body{
         max-width: 90rem;
         margin:0 auto;
     }
+    
     .flex-row{
         display: flex;
         flex-direction: column;
+    }
+
+    .tab_group .icon fa-icon{
+        margin-top: 0.8rem;
+        margin-right: 0;
+        content: "";
+    }
+
+    .text{
+        display: none;
+        justify-content: center;
     }
 
     .flex-center{
