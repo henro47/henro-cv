@@ -17,4 +17,13 @@
 
 .tab_group{
     max-width: auto;
+    position: absolute;
 }
+
+@media screen and (max-width: 30.0625rem){   
+    .tab_group{
+        max-width: 30.0625rem;
+        position: absolute;
+    }
+}
+

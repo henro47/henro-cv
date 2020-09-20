@@ -1,13 +1,15 @@
 .expansion_panels{
     margin: 1.8rem;
     padding-block: 1.8rem;
+}
+
+.card_info{
+    margin:0.8rem;
     max-width: 100%;
 }
 
 .info{
     background-color: gray;
-    margin: 0.8rem;
-    max-width: 100%;
 }
 
 .card_content
