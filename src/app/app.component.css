@@ -99,11 +99,10 @@ html,body{
         display: flex;
         flex-direction: column;
     }
-
+    
     .tab_group .icon fa-icon{
         margin-top: 0.8rem;
         margin-right: 0;
-        content: "";
     }
 
     .text{
