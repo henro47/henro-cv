@@ -1,4 +1,4 @@
-.expansion_panel{
+.expansion_panels{
     padding-block: 1.8rem;
     margin: 1.8rem;
 }
@@ -24,4 +24,8 @@
 
 table {
     width: 100%;
-  }
+}
+
+.sub .medium{
+    color: whitesmoke;
+}
