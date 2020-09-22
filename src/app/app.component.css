@@ -72,6 +72,11 @@ html,body{
     margin:0 auto;
 }
 
+.tab_group{
+    display: flex;
+    flex-direction: column;
+}
+
 .flex-row{
     display: flex;
     flex-direction: row;
