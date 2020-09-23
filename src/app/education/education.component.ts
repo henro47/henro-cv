@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {faGraduationCap,faAward,faLightbulb} from '@fortawesome/free-solid-svg-icons';
 export interface Data {
   position: number;
   name: string;
@@ -9,7 +8,7 @@ export interface Data {
 const UNI_DATA: Data[] = [
   {position: 1,name: 'Degree:', info: 'Baccalaureus in Scientiae in Information Technology (to be finished in 2020)'},
   {position: 2,name: 'Subjects passed in 2018:',info: '10 distinctions (First year – 2018)'},
-  {position: 3,name: 'Subjects passed in 2019:', info: '11 distinctions (Second year - 2019'}
+  {position: 3,name: 'Subjects passed in 2019:', info: '11 distinctions (Second year - 2019)'}
 ];
 
 const SCH_DATA: Data[] = [
@@ -50,11 +49,6 @@ export class EducationComponent implements OnInit {
   uniDataSource = UNI_DATA;
   schoolDataSource = SCH_DATA;
   adtionalAcademics = AA_DATA;
-
-  achieveIco = faAward;
-  uniIco = faGraduationCap;
-  schoolIco = faLightbulb;
-
   ngOnInit(): void {
   }
 

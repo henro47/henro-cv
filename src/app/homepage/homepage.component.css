@@ -1,29 +1,7 @@
-.container{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;/*Allign things vertically*/
-    align-items: flex-start;/*Align things horisontally*/
-    max-width: 100rem;
-    margin:0 auto;
-}
-
 ::ng-deep.mat-tab-label, ::ng-deep.mat-tab-label-active{
     display: flex;
-    background-color: aliceblue;
+    color: #333;
     text-transform: uppercase;
     background-color: whitesmoke;
-}
-
-.tab_group{
-    max-width: auto;
-    position: absolute;
-}
-
-@media screen and (max-width: 30.0625rem){   
-    .tab_group{
-        max-width: 30.0625rem;
-        position: absolute;
-    }
 }
 

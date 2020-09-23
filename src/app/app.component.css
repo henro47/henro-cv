@@ -7,6 +7,7 @@
     left: 0;
     right: 0;
     overflow: hidden;
+    overflow-y: hidden;
 }
 html,body{
     background-image: url('../assets/background.jpg');
@@ -19,8 +20,8 @@ html,body{
 }
 
 .icon fa-icon{
-    width: 90px;
-    height: 90px;
+    width: 5.6rem;
+    height: 5.6rem;
     background: #ffffff;
     color: #0bb5f4 ;
     border-radius: 75%;
@@ -71,6 +72,11 @@ html,body{
     margin:0 auto;
 }
 
+.tab_group{
+    display: flex;
+    flex-direction: column;
+}
+
 .flex-row{
     display: flex;
     flex-direction: row;
@@ -98,11 +104,10 @@ html,body{
         display: flex;
         flex-direction: column;
     }
-
+    
     .tab_group .icon fa-icon{
         margin-top: 0.8rem;
         margin-right: 0;
-        content: "";
     }
 
     .text{
@@ -114,5 +119,15 @@ html,body{
         justify-content: center;
         align-items: center;
     }
-}
 
+    .tab_group{
+        max-width: 30.0625rem;
+    }
+    
+    ::ng-deep.mat-tab-label, ::ng-deep.mat-tab-label-active{
+        display: flex;
+        background-color: aliceblue;
+        text-transform: uppercase;
+        background-color: whitesmoke;
+    }
+}
