@@ -1,0 +1,28 @@
+<div class="container">
+    <div id="home"  class="flex-center flex-row">
+        <mat-card class="info">
+            <mat-card-header>
+                <mat-card-title class="bold">{{title}}</mat-card-title>
+                <mat-card-subtitle class="medium">{{subtitle}}</mat-card-subtitle>
+            </mat-card-header>
+            <div class="youtube">
+                <youtube-player id="player"
+                    videoId="IWAtfyKosos"
+                    suggestedQuality="highres" 
+                    [startSeconds]="0"
+                    [endSeconds]="33">
+            </youtube-player>
+            </div>
+            <mat-card-content>
+                <ul>
+                    <li>
+                        <div class="icon"><fa-icon [icon]="playIco"></fa-icon></div>
+                        <div class="data">
+                            <p class="medium">{{driveSafe}}</p>
+                            <a mat-raised-button class="btn" href="https://play.google.com/store/apps/details?id=com.SPDev.drivesafe&gl=ZA" target="_blank">Drive Safe @Play Store</a>
+                        </div>
+                    </li>
+                </ul>
+            </mat-card-content>
+        </mat-card>   
+</div>

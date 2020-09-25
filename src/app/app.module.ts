@@ -15,6 +15,8 @@ import { SkillsComponent } from './skills/skills.component';
 import { EducationComponent } from './education/education.component';
 import { WorkComponent } from './work/work.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { YouTubePlayerModule } from "@angular/youtube-player";
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { HobbiesComponent } from './hobbies/hobbies.component';
     SkillsComponent,
     EducationComponent,
     WorkComponent,
-    HobbiesComponent
+    HobbiesComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +38,8 @@ import { HobbiesComponent } from './hobbies/hobbies.component';
     FontAwesomeModule,
     MatButtonModule,
     MatExpansionModule,
-    MatTableModule
+    MatTableModule,
+    YouTubePlayerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
