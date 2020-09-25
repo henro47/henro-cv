@@ -45,6 +45,7 @@ export class EducationComponent implements OnInit {
   achievementsTitle ="Academic Achievements";
   achievementSubtitle="My Academic Achievements";
 
+
   displayedColumns: string[] = ['name', 'info'] ;
   uniDataSource = UNI_DATA;
   schoolDataSource = SCH_DATA;

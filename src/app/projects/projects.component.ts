@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faPlay } from '@fortawesome/free-solid-svg-icons';
+import { faClone, faPlay } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-projects',
@@ -12,8 +12,9 @@ export class ProjectsComponent implements OnInit {
 
   title = "Projects" ;
   subtitle = "Projects I've created."
-  driveSafe = "Drive Safe" ;
+  driveSafe = "Download Drive Safe" ;
   playIco = faPlay ;
+  projectIco = faClone;
 
   ngOnInit(): void {
     const tag = document.createElement('script');

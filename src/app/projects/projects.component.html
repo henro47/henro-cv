@@ -2,18 +2,21 @@
     <div id="home"  class="flex-center flex-row">
         <mat-card class="info">
             <mat-card-header>
-                <mat-card-title class="bold">{{title}}</mat-card-title>
+                <mat-card-title class="bold icon"><fa-icon [icon]="projectIco"></fa-icon>{{title}}</mat-card-title>
                 <mat-card-subtitle class="medium">{{subtitle}}</mat-card-subtitle>
             </mat-card-header>
-            <div class="youtube">
-                <youtube-player id="player"
+            <div class="youtube" id = "player">
+                <youtube-player
                     videoId="IWAtfyKosos"
-                    suggestedQuality="highres" 
+                    suggestedQuality="highres"
                     [startSeconds]="0"
                     [endSeconds]="33">
             </youtube-player>
             </div>
             <mat-card-content>
+                <p class ="about regular"> 
+                    This app was designed to be a quick launcher for the applications you would usually open before commuting.
+                </p>
                 <ul>
                     <li>
                         <div class="icon"><fa-icon [icon]="playIco"></fa-icon></div>
@@ -25,4 +28,5 @@
                 </ul>
             </mat-card-content>
         </mat-card>   
+    </div>
 </div>
