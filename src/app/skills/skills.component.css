@@ -10,15 +10,18 @@ ul li:last-child{
 
 .skills{
     margin: 1.8rem;
-    padding-block: 1.8rem;
     max-width: 100%;
 }
 
+.skills ul li:first-child{
+    margin-top: 1.2rem;
+}
+
 .skills ul li{
-    color: #FF5733;
+    color: #333;
     position: relative;
     list-style: none;
-    margin: 50px 0;
+    margin: 3.125rem 0;
     text-transform: uppercase;
 }
 
@@ -29,8 +32,8 @@ ul li:last-child{
     left: 0;
     width: 100%;
     height: 1rem;
-    background-color: #900C3F;
-    border-radius: 1000px;
+    background-color:#01496D;
+    border-radius: 62.5rem;
 }
 
 .skills ul li:after{
@@ -40,8 +43,8 @@ ul li:last-child{
     left: 0;
     width: 0;
     height: 1rem;
-    background-color: #FF5733;
-    border-radius: 1000px;
+    background-color: #0bb5f4 ;
+    border-radius: 62.5rem;
     animation-duration: 1s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
@@ -127,4 +130,13 @@ ul li:last-child{
     }
 }
 
+.skills ul li.angular:after{
+    animation-name: angular;
+}
+
+@keyframes angular {
+    to {
+        width: 80%;
+    }
+}
 

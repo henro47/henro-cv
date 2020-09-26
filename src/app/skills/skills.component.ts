@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faWrench } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-skills',
@@ -10,6 +11,7 @@ export class SkillsComponent implements OnInit {
   constructor() { }
   title = "Skills" ;
   subtitle = "My skills";
+  wrenchIco = faWrench;
   ngOnInit(): void {
   }
 

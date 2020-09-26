@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faCodeBranch, faHome, faGraduationCap, faStream, faChessRook } from '@fortawesome/free-solid-svg-icons';
+import { faCodeBranch, faHome, faGraduationCap, faStream, faChessRook, faProjectDiagram } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-homepage',
@@ -15,6 +15,7 @@ export class HomepageComponent implements OnInit {
   eduIco = faGraduationCap;
   workIco = faStream;
   hobbyIco = faChessRook;
+  projectIco = faProjectDiagram;
 
   ngOnInit(): void {
     this.innerWidth = window.innerWidth;

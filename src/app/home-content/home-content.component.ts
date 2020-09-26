@@ -13,8 +13,8 @@ export class HomeContentComponent implements OnInit {
   subtitle= 'Final Year'  ;
   subtitleContinue= 'information Technology Student';
   location= 'De Wilgers Manskoshuis, NWU Potchefstroom Campus';
-  number="+27 79 923 1400";
-  emailLine="henro47@gmail.com";
+  number="tel:+27799231400";
+  emailLine="mailto:henro47@gmail.com?Subject=Job%20Opportunity";
   linkedIn='LinkedIn';
   github='Github'
 
