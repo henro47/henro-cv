@@ -5,12 +5,20 @@
                 <mat-card-title class="bold icon"><fa-icon [icon]="projectIco"></fa-icon>{{title}}</mat-card-title>
                 <mat-card-subtitle class="medium">{{subtitle}}</mat-card-subtitle>
             </mat-card-header>
-            <div class="youtube" id = "player">
-                <youtube-player
+            <div class="youtube">
+                <youtube-player id = "desktop"
                     videoId="IWAtfyKosos"
                     suggestedQuality="highres"
-                    [width] = "460" 
-                    [height] = "640"
+                    [width] = "680" 
+                    [height] = "400"
+                    [startSeconds]="0"
+                    [endSeconds]="33">
+            </youtube-player>
+            <youtube-player id = "mobile"
+                    videoId="IWAtfyKosos"
+                    suggestedQuality="highres"
+                    [width] = "380" 
+                    [height] = "200"
                     [startSeconds]="0"
                     [endSeconds]="33">
             </youtube-player>
