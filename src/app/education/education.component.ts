@@ -25,9 +25,9 @@ const SCH_DATA: Data[] = [
 
 const AA_DATA: Data[] = [
   {position:1,name:'2018:',info:'North West University Academic Merit Bursary'},
-  {position:1,name:'2019(1):',info:'Golden Key International Honour Society Member'},
-  {position:1,name:'2019(2):',info:'Academic Top 10 De Wilgers Manskoshuis (1st)'},
-  {position:1,name:'2019(3):',info:'North West University Academic Merit Bursary'}
+  {position:2,name:'2019:',info:'Golden Key International Honour Society Member'},
+  {position:3,name:'',info:'Academic Top 10 De Wilgers Manskoshuis (1st)'},
+  {position:4,name:'',info:'North West University Academic Merit Bursary'}
 ];
 
 @Component({
