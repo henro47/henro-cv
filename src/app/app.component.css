@@ -12,7 +12,6 @@
 html,body{
     background-image: url('../assets/background.jpg');
     overflow: hidden;
-    overflow-y: auto;
 }
 
 .bold,.medium,.regular{
