@@ -87,7 +87,7 @@ html,body{
     align-items: center;
 }
 
-@media screen and (max-width: 30.0625rem){
+@media only screen and (max-width: 30.0625rem){
 
     .container{
         width: 100vw;
@@ -106,10 +106,10 @@ html,body{
     
     .tab_group .icon fa-icon{
         margin-top: 0.8rem;
-        margin-right: 0;
-        width: 1rem;
-        height: 1rem;
-        font-size: 1.2rem;
+        margin: 0.8rem 0 0 0 ;
+        width: 0.6rem;
+        height: 0.6rem;
+        font-size: 1rem;
     }
 
     .text{
@@ -123,7 +123,7 @@ html,body{
     }
 
     .tab_group{
-        max-width: 30.0625rem;
+        max-width: 100%;
     }
     
     ::ng-deep.mat-tab-label, ::ng-deep.mat-tab-label-active{
@@ -131,5 +131,8 @@ html,body{
         background-color: aliceblue;
         text-transform: uppercase;
         background-color: whitesmoke;
+        padding: 0;
+        margin: 0;
+        max-width: 100%;
     }
 }
