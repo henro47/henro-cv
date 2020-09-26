@@ -130,4 +130,13 @@ ul li:last-child{
     }
 }
 
+.skills ul li.angular:after{
+    animation-name: angular;
+}
+
+@keyframes angular {
+    to {
+        width: 80%;
+    }
+}
 
