@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PRIMARY_OUTLET } from '@angular/router';
 import { faCodeBranch, faHome, faGraduationCap, faStream, faChessRook, faProjectDiagram } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
@@ -16,6 +17,7 @@ export class HomepageComponent implements OnInit {
   workIco = faStream;
   hobbyIco = faChessRook;
   projectIco = faProjectDiagram;
+  color = "primary" ;
 
   ngOnInit(): void {
     this.innerWidth = window.innerWidth;
