@@ -9,6 +9,31 @@
                     <mat-card class="info">    
                         <mat-card-header>
                             <mat-card-title class="bold icon">{{uniSubtitle}}</mat-card-title>
+                            <mat-card-subtitle class="sub medium">2018-2020</mat-card-subtitle>
+                        </mat-card-header>
+                        <mat-card-content>
+                            <table mat-table [dataSource]="uniDataSource" class="mat-elevation-z8">
+                                <!-- Name Column -->
+                                <ng-container matColumnDef="name">
+                                    <th class="medium" mat-header-cell *matHeaderCellDef> Info </th>
+                                    <td class ="regular" mat-cell *matCellDef="let element"> {{element.name}} </td>
+                                </ng-container>
+
+                                <!-- Weight Column -->
+                                <ng-container matColumnDef="info">
+                                    <th class="medium" mat-header-cell *matHeaderCellDef> Additional info </th>
+                                    <td class ="regular" mat-cell *matCellDef="let element"> {{element.info}} </td>
+                                </ng-container>
+
+                                <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                                <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+                            </table>
+                        </mat-card-content>
+                    </mat-card>
+                    <!--Additional Info-->
+                    <mat-card class="info">    
+                        <mat-card-header>
+                            <mat-card-title class="bold icon">{{uniSubtitle}}</mat-card-title>
                             <mat-card-subtitle class="sub medium">2018-Present</mat-card-subtitle>
                         </mat-card-header>
                         <mat-card-content>
