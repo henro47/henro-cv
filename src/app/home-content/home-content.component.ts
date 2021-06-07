@@ -21,7 +21,7 @@ export class HomeContentComponent implements OnInit {
   titleRight= 'ABOUT' ;
   subtitleRight ='A little about me.';
 
-  titleCarreer ="CARREER";
+  titleCarreer ="CAREER";
   subtitleCarrer="Goal Objective";
 
   titleSocial ="SOCIAL" ;
